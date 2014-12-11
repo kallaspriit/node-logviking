@@ -1,0 +1,32 @@
+{
+  "name": "logviking",
+  "version": "1.0.0",
+  "description": "JavaScript advanced remote logging for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kallaspriit/node-logviking.git"
+  },
+  "keywords": [
+    "javascript",
+    "logging",
+    "log",
+    "advanced",
+    "logviking",
+    "remote",
+    "colored"
+  ],
+  "author": "Priit Kallas <kallaspriit@gmail.com> (http://stagnationlab.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kallaspriit/node-logviking/issues"
+  },
+  "homepage": "https://github.com/kallaspriit/node-logviking",
+  "dependencies": {
+    "requirejs": "^2.1.15",
+    "ws": "^0.6.3"
+  }
+}
