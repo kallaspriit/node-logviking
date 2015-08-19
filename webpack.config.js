@@ -3,7 +3,8 @@ var path = require('path'),
 
 module.exports = {
     entry: {
-        logviking: './lib/index.js'
+        logviking: './lib/index.js',
+        dummy: './lib/dummy.js'
     },
     output: {
         path: path.join(__dirname, 'dist'),
