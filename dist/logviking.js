@@ -157,6 +157,13 @@ return /******/ (function(modules) { // webpackBootstrap
 					}).bind(this, i);
 				}
 
+				// add special count method
+				logInterface._counter = 0;
+
+				logInterface.count = function (text) {
+					logInterface.log(text, ++logInterface._counter);
+				};
+
 				this._loggers[component] = logInterface;
 
 				logInterface.component = component;
