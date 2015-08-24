@@ -78,6 +78,7 @@ return /******/ (function(modules) { // webpackBootstrap
 				instance.info = function () {};
 				instance.warn = function () {};
 				instance.error = function () {};
+				instance.count = function () {};
 
 				return instance;
 			}
